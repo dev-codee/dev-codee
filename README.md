@@ -34,8 +34,8 @@ Name       : Faizan Ahmad
 Username   : dev-codee
 Location   : Lahore, Pakistan 🇵🇰
 Education  : BS Computer Science
-University : UET Lahore (Final Year)
-Focus      : Full-Stack · Mobile · IoT · AI
+University : UET Lahore (Second Year)
+Focus      : Full-Stack · DevOps  · AI
 
 Currently  :
   - 🔭 Building Flutter & Next.js apps
