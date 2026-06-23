@@ -210,40 +210,6 @@ Interests  :
 
 ---
 
-<!-- Snake Animation -->
-## 🐍 My Contributions
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/dev-codee/dev-codee/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
-
-> ⚠️ **Note:** To activate the snake animation, go to your repo → **Actions** tab → create a new workflow file `.github/workflows/snake.yml` with the content below:
-> ```yaml
-> name: Generate Snake
-> on:
->   schedule: [{ cron: "0 0 * * *" }]
->   workflow_dispatch:
-> jobs:
->   generate:
->     runs-on: ubuntu-latest
->     steps:
->       - uses: Platane/snk@v3
->         with:
->           github_user_name: dev-codee
->           outputs: |
->             dist/github-contribution-grid-snake.svg
->             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
->       - uses: crazy-max/ghaction-github-pages@v3
->         with:
->           target_branch: output
->           build_dir: dist
->         env:
->           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-> ```
-
----
-
-<div align="center">
 
 <!-- Footer Wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
